@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.formulario .btn {
+    margin-top: 10px;
+}
+
+.card {
+    width: 80%;
+    height: fit-content;
+}
+
+.card-body {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.title-nome {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: fit-content;
+}
+
+.title-curso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+    background-color: rgba(128, 128, 128, 0.247);
+    padding: 5px;
+    border-radius: 5px;
+    width: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.padding {
+    padding: 50px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin {
+    margin-left: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0em 0em 1em;
+    flex-grow: 2;
+
+}
+
+
+
+.botao {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    max-width: 80%;
+    gap: 40px;
+}
+
+.formulario {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
